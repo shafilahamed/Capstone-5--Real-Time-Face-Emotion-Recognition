@@ -13,8 +13,7 @@ The model is trained on the dataset 'FER-13 cleaned dataset', which had five emo
  
  Since my model gave application error after deployment because of slug size, my team-mate have trained a model using CNN which gave an accuracy of 66.47% for train data, and 58.19% on test data at 42nd epoc.and we deployed this model on heroku cloud platform where slug size was around 413MB, which successfully deployed and app is facing issue in boot time.
 
-Here is link of CNN model -- https://github.com/sarfaraziqbal/face-emotion-recognition-cnn
-
+Here is link of CNN model -- 
 # Dependencies
 * Tensorlow
 * Keras
