@@ -34,18 +34,7 @@ Python and the following packages:
 * Matplotlib
 * sklearn
 
-# Try it out:
-* prepare data
-* train model
-* test it
-     * dataset -- https://www.kaggle.com/gauravsharma99/fer13-cleaned-dataset
-     * Transfer-Learning Model -- https://github.com/Apoorva2399/Real-Time-Face-Emotion-Recogniton/blob/main/facial-emotion.ipynb
-     * Real time face emotion recognition through webcam -- https://github.com/Apoorva2399/Real-Time-Face-Emotion-Recogniton/blob/main/Real%20Time%20Face%20Emotion%20Detection.ipynb
-     * Run on streamlit app -- https://github.com/Apoorva2399/Real-Time-Face-Emotion-Recogniton/blob/main/app.py
-* deploy Your app    
 
-# Here is my deployed app link :
-  * https://real-time-emotion-recognition.herokuapp.com/
 
 
 
