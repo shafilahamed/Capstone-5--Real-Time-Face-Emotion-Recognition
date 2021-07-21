@@ -28,7 +28,7 @@ I have built a deep learning model which detects the real time emotions of stude
 Here is the dataset link:-https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 ## Model Creation
 # 1)
-# Real-Time-Face-Emotion-Recognition Using Transfer Learning
+# Face-Emotion-Recognition Using Transfer Learning
  Here we have created the models which recognizes the real time emotion of person in frame. So basically its a team project done by me and my friend Babu reddy.Here is model trained by me using Transfer Learning with a pre trained model MobileNet.
 
 Transfer learning is a  research problem in machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind. It offers better starting point and improves the model performance when applied on second task.
@@ -66,7 +66,7 @@ Python and the following packages:
 * sklearn
 
 # 2)
-# Emotion-Recognition Web Application With Streamlit 
+# Emotion-Recognition Web Application With Streamlit(Using Keras and CNN) 
 A CNN based Tensorflow implementation on facial expression recognition (FER2013 dataset), achieving 66,72% accuracy 
 ![](images/model.png)
 
