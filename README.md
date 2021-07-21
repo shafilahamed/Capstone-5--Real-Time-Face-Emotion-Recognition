@@ -90,4 +90,6 @@ A CNN based Tensorflow implementation on facial expression recognition (FER2013 
 - The model is represented as a json file :model.json
 
 The separated dataset is already available to download in the two folders train and test.
+
+![](images/loss_accuracy_plot.jpg)
 # This was the CNN model that gave low slug size,both of them are present in my github repository.
