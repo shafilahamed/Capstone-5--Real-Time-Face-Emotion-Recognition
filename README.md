@@ -1,4 +1,4 @@
-# Live Class Monitoring System(Face Emotion Recognition)
+# Live Class Monitoring System(Facical Expression Recognition)
 
 ## Introduction
 Facial emotion recognition is the process of detecting human emotions from facial expressions. The human brain recognizes emotions automatically, and software has now been developed that can recognize emotions as well. This technology is becoming more accurate all the time, and will eventually be able to read emotions as well as our brains do. 
@@ -36,7 +36,8 @@ Transfer learning is a  research problem in machine learning model that focuses 
 
 ![transfer_learning](https://user-images.githubusercontent.com/81186352/117619020-613f2c80-b18c-11eb-845a-7396b80aa5ff.jpg)
 
-# You can take reference of my jupyter notebook
+
+## You can take reference of my jupyter notebook
 https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/python%20files%20of%20different%20model/Teamnotebook_1-transferlearning.ipynb
  
  In this Model 'MobileNet' Transfer-Learning is used, along with computer vision for Real time face emotion recognition through webcam, so based on these a streamlit app is created which is deployed on Heroku cloud platform and streamlit's own streamllit share platform.
@@ -72,9 +73,10 @@ Python and the following packages:
 # 2)
 # Emotion-Recognition Web Application With Streamlit(Using Keras and CNN) 
 A CNN based Tensorflow implementation on facial expression recognition (FER2013 dataset), achieving 66,72% accuracy 
-![](images/model.png)
+![](images/model.png) 
 
-# You can take a reference of my jupyter notebook for building model. Here is the link : 
+
+## You can take a reference of my jupyter notebook for building model. Here is the link : 
 https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/python%20files%20of%20different%20model/Team_Notebook_2.ipynb
 
 ### Dependencies:
