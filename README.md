@@ -27,7 +27,7 @@ The solution to this problem is by recognizing facial emotions.
 I have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 Here is the dataset link:-https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
 ## Model Creation
-1)
+# 1)
 # Real-Time-Face-Emotion-Recognition Using Transfer Learning
  Here we have created the models which recognizes the real time emotion of person in frame. So basically its a team project done by me and my friend Babu reddy.Here is model trained by me using Transfer Learning with a pre trained model MobileNet.
 
@@ -65,7 +65,7 @@ Python and the following packages:
 * Matplotlib
 * sklearn
 
-2)
+# 2)
 # Emotion-Recognition Web Application With Streamlit 
 A CNN based Tensorflow implementation on facial expression recognition (FER2013 dataset), achieving 66,72% accuracy 
 ![](images/model.png)
