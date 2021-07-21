@@ -35,6 +35,9 @@ Here is the dataset link:-https://www.kaggle.com/c/challenges-in-representation-
 Transfer learning is a  research problem in machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind. It offers better starting point and improves the model performance when applied on second task.
 
 ![transfer_learning](https://user-images.githubusercontent.com/81186352/117619020-613f2c80-b18c-11eb-845a-7396b80aa5ff.jpg)
+
+# You can take reference of my jupyter notebook
+https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/python%20files%20of%20different%20model/Teamnotebook_1-transferlearning.ipynb
  
  In this Model 'MobileNet' Transfer-Learning is used, along with computer vision for Real time face emotion recognition through webcam, so based on these a streamlit app is created which is deployed on Heroku cloud platform and streamlit's own streamllit share platform.
 The model is trained on the dataset 'FER-13 cleaned dataset', which had five emotion categories namely 'Happy', 'Sad', 'Neutral','Angry','Surprise','Fear' and 'Disgust' in which all the images were 48x48 pixel grayscale images of face. This model gave an accuracy of approximately 78% on train data, and around 76% of accuracy on test data at 30th epoc.
