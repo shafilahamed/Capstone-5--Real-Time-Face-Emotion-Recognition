@@ -71,6 +71,9 @@ Python and the following packages:
 A CNN based Tensorflow implementation on facial expression recognition (FER2013 dataset), achieving 66,72% accuracy 
 ![](images/model.png)
 
+# You can take a reference of my jupyter notebook for building model. Here is the link : 
+https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/python%20files%20of%20different%20model/Team_Notebook_2.ipynb
+
 ### Dependencies:
 - python 3.7<br/>
 - Keras with TensorFlow as backend<br/>
