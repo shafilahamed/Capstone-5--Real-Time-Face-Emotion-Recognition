@@ -1,8 +1,9 @@
 # Live Class Monitoring System(Face Emotion Recognition)
 
 ## Introduction
+Facial emotion recognition is the process of detecting human emotions from facial expressions. The human brain recognizes emotions automatically, and software has now been developed that can recognize emotions as well. This technology is becoming more accurate all the time, and will eventually be able to read emotions as well as our brains do. 
 
-Emotion recognition is the process of identifying human emotion. People vary widely in their accuracy at recognizing the emotions of others. Use of technology to help people with emotion recognition is a relatively nascent research area. Generally, the technology works best if it uses multiple modalities in context. To date, the most work has been conducted on automating the recognition of facial expressions from video, spoken expressions from audio, written expressions from text, and physiology as measured by wearables.
+AI can detect emotions by learning what each facial expression means and applying that knowledge to the new information presented to it. Emotional artificial intelligence, or emotion AI, is a technology that is capable of reading, imitating, interpreting, and responding to human facial expressions and emotions.
 
 Facial expressions are a form of nonverbal communication. Various studies have been done for the classification of these facial expressions. There is strong evidence for the universal facial expressions of seven emotions which include: neutral happy, sadness, anger, disgust, fear, and surprise. So it is very important to detect these emotions on the face as it has wide applications in the field of Computer Vision and Artificial Intelligence. These fields are researching on the facial emotions to get the sentiments of the humans automatically.
 ## Problem Statement
@@ -93,3 +94,27 @@ The separated dataset is already available to download in the two folders train 
 
 ![](images/loss_accuracy_plot.jpg)
 # This was the CNN model that gave low slug size,both of them are present in my github repository.
+
+## Realtime Local Video Face Detection
+
+I created  patterns for detecting and predicting single faces and as well as multiple faces using OpenCV videocapture in local.
+For Webapp , OpenCV can’t be used. Thus, using Streamlit for front-end application.Also because streamlit was taking a lot of time to boot so we also deployed it in flask just so that we have a working model that is quickly deployed.
+
+
+## Deployment of Streamlit WebApp in Heroku and Streamlit
+
+In this repository I have made a front end using streamlit as it have recently launched a streamlit.share platform.
+
+
+Streamlit Link:- https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main
+
+
+
+
+
+## Conclusion
+
+Finally I build the webapp and deployed which has training accuracy of 78% and test accuracy of 66% .
+
+If failed to access the website and just wanted to see how the webapp works, then visit this link:-  
+
