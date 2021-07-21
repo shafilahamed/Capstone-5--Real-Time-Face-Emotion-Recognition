@@ -26,22 +26,25 @@ The solution to this problem is by recognizing facial emotions.
 
 I have built a deep learning model which detects the real time emotions of students through a webcam so that teachers can understand if students are able to grasp the topic according to students' expressions or emotions and then deploy the model. The model is trained on the FER-2013 dataset .This dataset consists of 35887 grayscale, 48x48 sized face images with seven emotions - angry, disgusted, fearful, happy, neutral, sad and surprised.
 Here is the dataset link:-https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data
+## Model Creation
+1)
 # Real-Time-Face-Emotion-Recognition Using Transfer Learning
- Here we have created the models which recognizes the real time emotion of person in frame. So basically its a team project done by me and my friend Md Sarfaraz Iqbal.Here is model trained by me using Transfer Learning. 
+ Here we have created the models which recognizes the real time emotion of person in frame. So basically its a team project done by me and my friend Babu reddy.Here is model trained by me using Transfer Learning with a pre trained model MobileNet.
 
 Transfer learning is a  research problem in machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind. It offers better starting point and improves the model performance when applied on second task.
 
 ![transfer_learning](https://user-images.githubusercontent.com/81186352/117619020-613f2c80-b18c-11eb-845a-7396b80aa5ff.jpg)
  
- In this Model 'MobileNet' Transfer-Learning is used, along with computer vision for Real time face emotion recognition through webcam, so based on these a streamlit app is created which is deployed on Heroku cloud platform.
-The model is trained on the dataset 'FER-13 cleaned dataset', which had five emotion categories namely 'Happy', 'Sad', 'Neutral','Angry' and 'Disgust' in which all the images were 48x48 pixel grayscale images of face. This model gave an accuracy of approximately 80% on train data, and around 76% of accuracy on test data at 30th epoc.
+ In this Model 'MobileNet' Transfer-Learning is used, along with computer vision for Real time face emotion recognition through webcam, so based on these a streamlit app is created which is deployed on Heroku cloud platform and streamlit's own streamllit share platform.
+The model is trained on the dataset 'FER-13 cleaned dataset', which had five emotion categories namely 'Happy', 'Sad', 'Neutral','Angry','Surprise','Fear' and 'Disgust' in which all the images were 48x48 pixel grayscale images of face. This model gave an accuracy of approximately 78% on train data, and around 76% of accuracy on test data at 30th epoc.
 
 
- Since there was an soft limit size of 300MB on heroku colud platform to perfectly deploy and run the model through app. My model size was around 438MB because of which i can only deploy the app but couldn't run perfectly. So this can be solved by providing some more extra space or by further reducing the slug size of model if possible.
+ Since there was an soft limit size of 300MB on heroku colud platform to perfectly deploy and run the model through app. My model size was around 498MB because of which I can only deploy the app but couldn't run perfectly. So this can be solved by providing some more extra space or by further reducing the slug size of model if possible.
  
- Since my model gave application error after deployment because of slug size, my team-mate have trained a model using CNN which gave an accuracy of 66.47% for train data, and 58.19% on test data at 42nd epoc.and we deployed this model on heroku cloud platform where slug size was around 413MB, which successfully deployed and app is facing issue in boot time.
+ Since our model gave application error after deployment because of slug size, we also trained a model using CNN which gave an accuracy of 66.47% for train data, and 58.19% on test data at 42nd epoc.and we deployed this model on heroku cloud platform where slug size was around 413MB, which successfully deployed and app is facing issue in boot time.
+and therefore we deployed it in Streamlit.share platform 
 
-Here is link
+Here is link:https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main
 
 # Dependencies
 * Tensorlow
@@ -62,6 +65,7 @@ Python and the following packages:
 * Matplotlib
 * sklearn
 
+2)
 # Emotion-Recognition Web Application With Streamlit 
 A CNN based Tensorflow implementation on facial expression recognition (FER2013 dataset), achieving 66,72% accuracy 
 ![](images/model.png)
@@ -86,3 +90,4 @@ A CNN based Tensorflow implementation on facial expression recognition (FER2013 
 - The model is represented as a json file :model.json
 
 The separated dataset is already available to download in the two folders train and test.
+# This was the CNN model that gave low slug size,both of them are present in my github repository.
