@@ -22,6 +22,8 @@ Deep learning backed system not only solves the surveillance issue, but it also 
 
 I will solve the above-mentioned challenge by applying deep learning algorithms to live video data.
 The solution to this problem is by recognizing facial emotions.
+You can look at the power point presentation for better clarity on the model : 
+https://github.com/shafilahamed/Capstone-5--Real-Time-Face-Emotion-Recognition/blob/main/Capstone%205%20presentation.pptx
 
 ## Dataset Information
 
@@ -32,7 +34,7 @@ Here is the dataset link:-https://www.kaggle.com/c/challenges-in-representation-
 # Face-Emotion-Recognition Using Transfer Learning
  Here we have created the models which recognizes the real time emotion of person in frame. So basically its a team project done by me and my friend Babu reddy.Here is model trained by me using Transfer Learning with a pre trained model MobileNet.
 
-Transfer learning is a  research problem in machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind. It offers better starting point and improves the model performance when applied on second task.
+Transfer learning is a  research problem in machine learning model that focuses on storing knowledge gained while solving a problem and applies it to another problem of similar kind. It offers better starting point and improves the model performance when applied on second task. The model file for this is provided in my_model folder you can have a look.
 
 ![transfer_learning](https://user-images.githubusercontent.com/81186352/117619020-613f2c80-b18c-11eb-845a-7396b80aa5ff.jpg)
 
@@ -50,6 +52,8 @@ The model is trained on the dataset 'FER-13 cleaned dataset', which had five emo
 and therefore we deployed it in Streamlit.share platform 
 
 Here is link:  https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main
+Heroku link : https://emotion-detection-app-cnn.herokuapp.com/
+
 
 # Dependencies
 * Tensorlow
@@ -63,7 +67,7 @@ Here is link:  https://share.streamlit.io/shafilahamed/capstone-5--real-time-fac
 ## You need  the Following:
 Python and the following packages:
 * OpenCV 
-* Keras (with Tensorflow backend)
+* Keras
 * Tensorflow
 * Numpy
 * pandas
@@ -115,6 +119,9 @@ In this repository I have made a front end using streamlit as it have recently l
 
 
 Streamlit Link:- https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main
+Heroku link : https://emotion-detection-app-cnn.herokuapp.com/
+
+
 
 
 
