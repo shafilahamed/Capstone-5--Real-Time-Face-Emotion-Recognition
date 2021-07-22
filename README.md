@@ -51,7 +51,8 @@ The model is trained on the dataset 'FER-13 cleaned dataset', which had five emo
  Since our model gave application error after deployment because of slug size, we also trained a model using CNN which gave an accuracy of 66.47% for train data, and 58.19% on test data at 42nd epoc.and we deployed this model on heroku cloud platform where slug size was around 413MB, which successfully deployed and app is facing issue in boot time.
 and therefore we deployed it in Streamlit.share platform 
 
-Here is link:  https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main
+Here is link:  https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main                                                              
+
 Heroku link : https://emotion-detection-app-cnn.herokuapp.com/
 
 
@@ -131,5 +132,5 @@ Heroku link : https://emotion-detection-app-cnn.herokuapp.com/
 
 Finally I build the webapp and deployed which has training accuracy of 78% and test accuracy of 66% .
 
-If failed to access the website and just wanted to see how the webapp works, then visit this link:-  
+  
 
