@@ -118,7 +118,7 @@ For Webapp , OpenCV can’t be used. Thus, using Streamlit for front-end applica
 In this repository I have made a front end using streamlit as it have recently launched a streamlit.share platform.
 
 
-Streamlit Link:- https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main
+Streamlit Link:- https://share.streamlit.io/shafilahamed/capstone-5--real-time-face-emotion-recognition/main                                                     
 Heroku link : https://emotion-detection-app-cnn.herokuapp.com/
 
 
